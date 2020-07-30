@@ -1,0 +1,127 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+  width: 100%;
+}
+
+.text-md {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+nav {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.color-main {
+  color: #25c0f5;
+}
+
+.bg-main {
+  background-color: #25c0f5;
+  border: solid 5px #25c0f5;
+}
+
+.bg-sc {
+  background-color: white;
+  border: solid 5px white;
+}
+
+.nav-menu {
+  font-size: 30;
+  font-weight: 900;
+}
+
+.btn-outline-main {
+  border: solid 5px #25c0f5;
+  color: #25c0f5;
+}
+
+.btn-outline-main:hover {
+  border: solid 5px #25c0f5;
+  color: white;
+  background-color: #25c0f5;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+.btn-outline-white {
+  border: solid 5px white;
+  color: white;
+}
+
+.btn-outline-white:hover {
+  border: solid 5px white;
+  color: #25c0f5;
+  background-color: white;
+}
+
+#home {
+  width: 100%;
+  background-color: #f3f3f3;
+  background-image: url("../assets/images/Home-TP.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about {
+  width: 100%;
+  background-color: #f3f3f3;
+  background-image: url("../assets/images/About-TP.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing {
+  background-image: linear-gradient(#f3f3f3, #c795e0);
+}
+
+.contact {
+  background-image: linear-gradient(#c795e0, #25c0f5);
+}
+.login-side {
+  background-image: linear-gradient(#c795e0, #25c0f5);
+}
+
+.card-feature {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.contact-form {
+  padding: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  border-radius: 20px;
+  background-color: #f3f3f3;
+}
+
+.form-control {
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.footer {
+  background-color: #25c0f5;
+}
