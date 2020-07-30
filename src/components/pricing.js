@@ -63,7 +63,7 @@ const Pricing = () => {
               return (
                 <div
                   key={key}
-                  className="col-9 col-md-3 col-lg-3 card-feature m-3 p-3"
+                  className="col-11 col-md-3 col-lg-3 card-feature m-3 p-3"
                   style={key == 2 ? { backgroundColor: "#25c0f5" } : {}}
                 >
                   <div className="row">

@@ -18,7 +18,7 @@ const Footer = () => {
   ]);
   return (
     <div className="footer row justify-content-center m-0 align-items-center pt-5">
-      <div className="col-3 text-center">
+      <div className="col-12col-lg-3 text-center">
         <p style={{ fontWeight: 900, fontSize: 20, textAlign: "center" }}>
           Address
         </p>
@@ -27,10 +27,10 @@ const Footer = () => {
           {address.city}, {address.country}
         </p>
       </div>
-      <div className="col-3 text-center">
+      <div className="col-12 col-lg-3 mb-3 text-center">
         <img src={logo} width={50} />
       </div>
-      <div className="col-3 text-center">
+      <div className="col-12 col-lg-3 text-center">
         <p style={{ fontWeight: 900, fontSize: 20, textAlign: "center" }}>
           Phone
         </p>
