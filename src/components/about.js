@@ -66,7 +66,7 @@ const About = () => {
                 color: "gray",
               }}
             >
-              Online Shop
+              Olshop
             </p>
             <p
               style={{
