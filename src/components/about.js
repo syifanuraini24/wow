@@ -20,16 +20,13 @@ const About = () => {
           accuracy
         </p>
       </div>
-      <div className="col-12 col-lg-6 offset-lg-1 mt-1">
-        <p style={{ fontWeight: 900, fontSize: 40, textAlign: "center" }}>
-          Our Clients
-        </p>
+      <div className="col-12 col-lg-6 offset-lg-1 mt-5">
+        <p style={{ fontWeight: 900, fontSize: 40 }}>Our Clients</p>
         <div className="row">
           <div className="col">
             <p
               style={{
                 fontSize: 20,
-                textAlign: "center",
                 color: "gray",
               }}
             >
@@ -38,7 +35,6 @@ const About = () => {
             <p
               style={{
                 fontSize: 20,
-                textAlign: "center",
                 color: "gray",
               }}
             >
@@ -49,7 +45,6 @@ const About = () => {
             <p
               style={{
                 fontSize: 20,
-                textAlign: "center",
                 color: "gray",
               }}
             >
@@ -58,7 +53,6 @@ const About = () => {
             <p
               style={{
                 fontSize: 20,
-                textAlign: "center",
                 color: "gray",
               }}
             >
@@ -69,7 +63,6 @@ const About = () => {
             <p
               style={{
                 fontSize: 20,
-                textAlign: "center",
                 color: "gray",
               }}
             >
@@ -78,7 +71,6 @@ const About = () => {
             <p
               style={{
                 fontSize: 20,
-                textAlign: "center",
                 color: "gray",
               }}
             >
