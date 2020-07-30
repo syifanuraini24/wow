@@ -38,7 +38,7 @@ const Login = () => {
             marginRight: 20,
           }}
         />
-        <h3 className="d-inline-block align-middle m-0 nav-menu text-white">
+        <h3 className="d-inline-block align-middle m-0 sm-black nav-menu text-white">
           HOME
         </h3>
       </a>
